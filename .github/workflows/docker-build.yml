@@ -22,5 +22,5 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: aanugerahaf16/nutriscan:latest
+        tags: aanugerahaf16/ubuntu:latest
         run : docker push aanugerahaf16/aanugerahaf16:tagname
