@@ -10,16 +10,16 @@ jobs:
  
     steps: 
     - name: Checkout code 
-      uses: docker login -u aanugerahaf16 
+      uses: actions/checkout@v3 
  
     - name: Login to Docker Hub 
-      uses: docker login -u aanugerahaf16 
+      uses: docker/aanugerahaf16 
       with: 
         username: ${ secrets.DOCKER_USERNAME }} 
         password: ${ secrets.DOCKER_PASSWORD }} 
  
     - name: Build and push Docker image 
-      uses: docker login -u aanugerahaf16 
+      uses: docker/uaanugerahaf16 
       with: 
         push: true 
         tags: username/yourapp:latest
